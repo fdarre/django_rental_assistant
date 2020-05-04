@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=django_rental_assistant
+POSTGRES_USER=xsqKDWILERZfHhqUcgRulGbJrPokBSrI
+POSTGRES_PASSWORD=iD9qoKRDZh9wlrbvKUEkHAzuaiC8CIJN3fTz3HzStIl8bJN2oRTXolE8OZujnnZA
