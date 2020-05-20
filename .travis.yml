@@ -29,3 +29,8 @@ jobs:
         - pip install -r requirements/local.txt
       script:
         - "pytest"
+deploy:
+  provider: heroku
+  api_key:
+    secure: I+A9vznovzplpVrS83VWG+QVB34M3xafRb0t0tWieni5oxJ9iZZk3EA3KGqtzP9fUV43qe3UjX7PF3gEM+PR9ArzWuYztSieFnLyNnusvADDxAi/om6Mn0rVsxz5JeB10hfbNPYQvjF2+w5jp99dpC19/A2uZfB9jU6Kv0HTFCHyk5w+ETk9UWpjSCX439rFgK//pljw2ZgoCq0lBGt45kTHpKMT1B7ILksP6VZ2E1iMhlrn9DTlWpJRpGPwP76k1Zymo+MiXeMG1cnEAjMG84gHLY6KjKZsIAZOnzcL0K/00vmKCTaE9sVMTg0x67uLbeZ8AikzDzY41RkeqRARJNMGLIf1GwVCmLuwlf2kOc1GEqE5GIijQ7Bs0JE6xnee4pJO15IlyF0TXJy9G4Qn+q3jTDlmJmeIFT5w6mDhqocLNl4lMzzrG8+Of1q91IOGV1t5v1Sj6sHp2Suo1RAUFxBDZlD2M3gzIo1NoOydcRddTJEnv0XsOFWeHN995AtTe8Eo6fHKmnDNsV/M6KfsMZwYC0ABFC8xTkMirhpwhdFZd4/5S5pf58HOVRrkwcBmtvcFn85xdcto9mPOXaxYOtJUG6D6CroWIkv0A6fbLQT2MS7txFu1BcwrhLXMY1kYs3+JOT7turSPo/hmGE5CjV0y1VPEzb9mLzuJj3G9KZo=
+  app: django_rental_assistant
